@@ -15,4 +15,4 @@ fi
 echo '##vso[task.setvariable variable=REGISTRY]stratsys.azurecr.io'
 
 # Per project, should change every time
-echo '##vso[task.setvariable variable=REPOSITORY]docker-healthcheck-watcher'
+echo '##vso[task.setvariable variable=REPOSITORY]docker-cron'
