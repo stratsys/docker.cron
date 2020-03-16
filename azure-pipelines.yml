@@ -30,6 +30,7 @@ variables:
   - name: GIT_COMMIT_SHA
     value: $(Build.SourceVersion)
   - group: "Azure container registry - stratsys"
+  - group: "Azure Key Vault"
 trigger:
   - master
 pool: "Linux-docker"
