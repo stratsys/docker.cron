@@ -13,3 +13,5 @@ RUN apk add --no-cache curl jq \
     && chmod +x /docker-entrypoint.sh
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
+
+STOPSIGNAL SIGINT
