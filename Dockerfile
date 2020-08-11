@@ -1,6 +1,6 @@
-FROM alpine:3.11
+FROM alpine:3.12
 
-ENV VERSION "19.03.9"
+ENV VERSION "19.03.12"
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 
